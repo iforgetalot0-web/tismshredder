@@ -8,7 +8,11 @@ Windows 10/11, 64-bit. The first game download is about 617 MB, with about 1.36 
 
 ## Current multiplayer preview
 
-The full existing solo game remains available. The two-player networking foundation supports hosting, joining with a code, and movement in General Operations. Shared processing and progression are still in development. This co-op preview does not save campaign progress.
+The full existing Solo game remains available. Multiplayer Phase 2 supports two players hosting/joining by code in General Operations, shared office paper, separate inventories, host-authoritative shredding and output pickup, recycling, shared business money, current-state joining and disconnect material recovery.
+
+Co-op sessions are temporary and do not save campaign progress. Broom multiplayer, B1 multiplayer, industrial cutter, furnace, warehouse charge meter, rear wall/vault progression and B1 freight/crank remain gated. Upgrades, loose-material physics and throwing are also gated. Ending the host session ends its temporary progress.
+
+Game version 0.1.1 / update sequence 2; launcher 1.0.0 is unchanged. Testing used independent Windows processes on one computer, including real Unity Relay; a separate-PC/friend-network test has not been performed.
 
 ## Which file do I need?
 
@@ -17,3 +21,4 @@ The full existing solo game remains available. The two-player networking foundat
 - **channel.json** — signed update metadata for the launcher.
 
 GitHub’s automatically generated source archives are not game downloads. This repository distributes compiled builds, not the Unity project or imported source assets.
+
